@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.text span {
+  opacity: 0;
+}
+.text span.revealed {
+  opacity: 1;
+}
+.text span.green {
+  color: #00ff6a81;
+}
+.text span.red {
+  color: #5e0101;
+}
+body {
+  background: #3b2b21;
+  padding: 2em;
+  font-family: 'Sora', monospace;
+}
+.text {
+  font-size: 4vw;
+  word-spacing: 0.2em;
+  margin: 0 auto;
+  background: rgb(128, 104, 104);
+  padding: 1em;
+  border-bottom: 1vw solid #9c5716;
+  position:relative;
+  line-height: 1.2em;
+}
+.corner {
+  position:absolute;
+  width: 10vw;
+  right:2vw;
+  bottom:0;
+  transform: translateY(80%); 
+}
